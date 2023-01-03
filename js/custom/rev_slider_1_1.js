@@ -65,7 +65,7 @@ tpj(document).ready(function() {
 			jsFileLocation: "js/vendor/plugins/revslider/public/assets/js/",
 			sliderLayout: "fullwidth",
 			dottedOverlay: "none",
-			delay: 9000,
+			delay: 4000,
 			navigation: {
 				keyboardNavigation: "off",
 				keyboard_direction: "horizontal",
