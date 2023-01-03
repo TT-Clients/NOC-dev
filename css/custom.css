@@ -161,3 +161,14 @@ h4.entry-title a{
 .tp-caption{
     background: rgba(255, 0, 0, 0.5);
 }
+
+.tp-caption.TRX-title-white, .TRX-title-white {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+
+
+.board{
+    color:red !important;
+    font-weight: bold;
+}

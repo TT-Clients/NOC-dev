@@ -102,7 +102,7 @@ function main() {
   if(members[member]){
   document.querySelector("h2.team_title").innerHTML=members[member].name;
   document.querySelector("h6.team_position").innerHTML=members[member].title;
-  document.querySelector("div.bio").innerHTML=members[member].bio? members[member].bio:"Coming soon";
+  //document.querySelector("div.bio").innerHTML=members[member].bio? members[member].bio:"Coming soon";
   document.querySelector("div.hec").innerHTML=members[member].hec?members[member].hec:"Coming soon";
   document.querySelector("div.noc").innerHTML=members[member].noc? members[member].noc:"Coming soon";
   document.querySelector("img.prof-image").src=members[member].image;
