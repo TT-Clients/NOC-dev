@@ -88,13 +88,19 @@ font-weight: 900;
    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
+   
 
 }
 
-.staff-photos div{
+.staff-photos .photo{
     margin: 20px;
     width:200px;
+}
+
+.names{
+    color: #FFF;
+    font-weight: bold;
+   text-align: center;
 }
 
 .top_panel_fixed .top_panel_wrap .logo_main {
@@ -119,16 +125,20 @@ h4.entry-title a{
    color: #008036!important;
 }
 
-.scheme_original .top_panel_middle {
-    background-color: #000;
-}
+
 
 .block_who_we_are{
-    background-color: green;
+    /* background-color: green; */
+    background: url('../images/clean-black-plaster.jpg');
+    color: #FFF;
 }
 
 .block_who_we_are .sc_services_title{
     color:#FFF;
+}
+.block_who_we_are .sc_item_descr {
+    color: #FFF !important;
+    font-weight: bold;
 }
 
  .scheme_original .sc_item_descr {
@@ -137,7 +147,8 @@ h4.entry-title a{
 }
 
 .scheme_original .sc_button.sc_button_style_filled2 {
-    background-color: #008000;
+     background-color: #008000; 
+    /* background: url('../images/clean-black-plaster.jpg'); */
     color: #ffffff;
 }
 
@@ -145,9 +156,39 @@ h4.entry-title a{
     background-color: red;
     color: #ffffff;
 }
+.slider_boxed, header .content_wrap, .top_panel_title .content_wrap, .pre_footer_wrap .content_wrap, footer .content_wrap, .content_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* main background colors */
+.scheme_original .top_panel_middle {
+    /*   background-color: #000;*/
+    /* background: url('../images/black-marble2.jpg'); */
+    /* background: url('../images/black-concrete.jpg'); */
+    background: url('../images/clean-black-plaster.jpg');
+   }
 
 .block_our_logo{
-    background-color:black!important;
+    /* background-color:black!important; */
+    /* background: url('../images/black-marble2.jpg'); */
+    /* background: url('../images/black-concrete.jpg'); */
+    /* background: url('../images/clean-black-plaster.jpg'); */
+    background-color: green;
+}
+.scheme_original .copyright_wrap_inner {
+    /* background-color: #0f0f0f; */
+    /* background: url('../images/black-marble2.jpg'); */
+    /* background: url('../images/black-concrete.jpg'); */
+    background: url('../images/clean-black-plaster.jpg');
+}
+
+.content .sc_quote {
+    margin-left: 6em;
+    max-width: 70%;
+}
+
+.scheme_original .menu_main_nav>li>a {
+    color: red;
 }
 
 .block_our_logo .sc_services_title{
@@ -172,4 +213,23 @@ h4.entry-title a{
 .board{
     color:red !important;
     font-weight: bold;
+}
+
+.star {
+    visibility: hidden;
+}
+
+.fadeInPic {
+    -webkit-animation: animat_show 3s;
+    animation: animat_show 3s;
+    visibility: visible !important;
+}
+
+@keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+.sc_socials{
+    display:none !important;
 }

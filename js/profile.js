@@ -5,6 +5,8 @@ let members = {
         President – Interdenominational Ministerial Alliance
         `,
     image: "images/staff/Pastor Portia CavittSM.jpg",
+    hec:`To bring organizations together and help facilitate and/or remind them of the important work they are committed to doing, while providing new tools to support the health and well-being of youth and their families.`,
+    noc:`To help identify unmet needs and provide infrastructure and resource development.`
   },
   ljd: {
     name: "LaDonna Jones-Dunlap, MS",
@@ -22,6 +24,8 @@ let members = {
     title: `Co-Founder and Chief Executive Officer
     Metro Area Youth Services`,
     image: "images/staff/Rodney EvansSM.jpg",
+    hec:` I believe that this type of training provides opportunities for individuals and agencies to address trauma and community needs, by fostering collaborations, allowing the community's voice to be heard, as well as action steps towards solutions based on consensus.`,
+    noc:`If You Always Do What You Always Did You'll Always Get What You Always Got.  It's time to try something different and as the experts of HCE NOC address trauma in our community from a holistic perspective to produce a different result. `
   },
   lkf: {
     name: "Lt, Kenneth Fox",
@@ -69,8 +73,7 @@ let members = {
   pt: {
     name: "Patrick Taylor",
     title: `Co-Founder and Director of Youth Development\n
-    Metro Area Youth Services
-       
+    Metro Area Youth Services       
     `,
     image: "images/staff/Patrick TaylorSM.jpg",
   },
