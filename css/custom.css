@@ -1,3 +1,8 @@
+@import url('https://fonts.cdnfonts.com/css/adobe-clean');
+
+*{
+    font-family: 'Adobe Clean', sans-serif;
+}
 .logo a{
 display: inline-block;
 font-size: 45px;
@@ -93,7 +98,7 @@ font-weight: 900;
 }
 
 .staff-photos .photo{
-    margin: 20px;
+    margin: 7px;
     width:200px;
 }
 
@@ -162,7 +167,7 @@ h4.entry-title a{
 }
 /* main background colors */
 .scheme_original .top_panel_middle {
-    /*   background-color: #000;*/
+      /* background-color: #000; */
     /* background: url('../images/black-marble2.jpg'); */
     /* background: url('../images/black-concrete.jpg'); */
     background: url('../images/clean-black-plaster.jpg');
@@ -232,4 +237,17 @@ h4.entry-title a{
 
 .sc_socials{
     display:none !important;
+}
+
+
+.header_mobile .side_wrap {
+    overflow-y: hidden;
+    background-color: #507a22;
+}
+
+@media (max-width: 639px){
+    .header_mobile .logo_main {
+        height: 150px;
+    }
+
 }
