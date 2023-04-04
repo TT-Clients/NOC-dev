@@ -148,7 +148,7 @@ h4.entry-title a{
 
  .scheme_original .sc_item_descr {
     color: black;
-    font-weight: bold;
+    font-size: 1.7em;
 }
 
 .scheme_original .sc_button.sc_button_style_filled2 {
@@ -244,6 +244,8 @@ h4.entry-title a{
     overflow-y: hidden;
     background-color: #507a22;
 }
+
+
 
 @media (max-width: 639px){
     .header_mobile .logo_main {

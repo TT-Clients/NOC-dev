@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    font-family: 'Adobe Clean', sans-serif;
+}
+        body {
+            margin: 0;
+        }
+
+        .hero-carousel {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .hero-carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .active {
+            opacity: 1;
+        }
+
+        .hero-carousel-caption {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            width: 70%;
+        }
+
+        .active .hero-carousel-caption {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero-carousel">
+        <div class="hero-carousel-slide active"
+            style="background: url('./images/kidscrowdblurred.jpg') no-repeat; background-size: cover; background-position: center;">
+            <div class="hero-carousel-caption">
+                <h2>Its when we start working together that the real healing takes place</h2>
+                <p>David Hume</p>
+            </div>
+        </div>
+        <div class="hero-carousel-slide"
+            style="background: url('./images/unnamed.jpg') no-repeat; background-size: cover; background-position: center;">
+            <div class="hero-carousel-caption">
+                <h2>We repeat what we don't repair</h2>
+                <p>Unknown</p>
+            </div>
+        </div>
+        <div class="hero-carousel-slide"
+            style="background: url('./images/omahastar (2).jpg') no-repeat; background-size: cover; background-position: center;">
+            <div class="hero-carousel-caption">
+                <h2>Our sorrows and wounds are healed only when we touch them with compassion</h2>
+                <p>Gautama Buddha</p>
+            </div>
+        </div>
+        <div class="hero-carousel-slide"
+            style="background: url('./images/omaha/pic12.png') no-repeat; background-size: cover; background-position: center;">
+            <div class="hero-carousel-caption">
+                <h2>The greatest healing would be to wake up from what we are not</h2>
+                <p>Mooji</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/test.js"></script>
+</body>
+
+</html>
