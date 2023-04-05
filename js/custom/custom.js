@@ -50,6 +50,15 @@ window.addEventListener("load", () => {
     showSlides();
 });
 
+function showMenu() {
+    var navLinks = document.getElementById("nav-links");
+    console.log(navLinks.style.display)
+    if (navLinks.style.display === "none" || navLinks.style.display === "") {
+        navLinks.style.display = "flex";
+    } else {
+        navLinks.style.display = "none";
+    }
+  }
 
 function checkScroll() {
     var scrollPos = window.innerHeight + window.scrollY;
