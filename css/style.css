@@ -4187,7 +4187,7 @@ blockquote, blockquote p {
     letter-spacing: 0.025em;
 }
 blockquote:before {
-	content: '\”';
+	/* content: '\”'; */
 	display:block;
 	position:absolute;
 	z-index:1;

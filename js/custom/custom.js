@@ -49,3 +49,15 @@ window.addEventListener("load", () => {
 
     showSlides();
 });
+
+
+function checkScroll() {
+    var scrollPos = window.innerHeight + window.scrollY;
+    var elementPos = document.querySelector('.fade-in').offsetTop + document.querySelector('.fade-in').offsetHeight;
+    if (scrollPos >= elementPos) {
+      document.querySelector('.fade-in').classList.add('is-visible');
+      window.removeEventListener('scroll', checkScroll);
+    }
+  }
+  
+  window.addEventListener('scroll', checkScroll);
