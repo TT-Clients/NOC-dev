@@ -490,5 +490,8 @@ nav {
     .header_mobile .logo_main {
         height: 150px;
     }
+    .staff-member {
+        flex-basis: 100%;
+    }
 
 }
